@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar Image</title>
+	</head>
+	<body>
+		<h1>Belajar Image</h1>
+		<img
+			src="https://unsil.ac.id/wp-content/uploads/2021/07/LOGO-UNSIL-300x300.png"
+			alt="dummy image"
+			width="100"
+			height="100" />
+		<picture>
+			<source
+				media="(max-width: 500px)"
+				srcset="
+					https://unsil.ac.id/wp-content/uploads/2021/07/LOGO-UNSIL-300x300.png
+				" />
+			<source
+				media="(max-width: 700px)"
+				srcset="
+					https://unsil.ac.id/wp-content/uploads/2021/07/LOGO-UNSIL-300x300.png
+				"
+				width="500"
+				height="500" />
+		</picture>
+	</body>
+</html>
